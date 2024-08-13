@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/1b/45/63/1b456377a9dce67a7dc3630260aa7572.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0 ;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(250, 243, 243);
+    backdrop-filter: blur(1px);
+
+}
